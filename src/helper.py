@@ -11,17 +11,18 @@ from langchain_core.output_parsers import JsonOutputParser
 from langchain_core.messages import HumanMessage
 from langchain_core.prompts import PromptTemplate
 from unstructured.partition.pdf import partition_pdf
+from src.prompt import extract_financial_data_prompt
 
 # Simple prompt for extracting financial data
-extract_financial_data_prompt = """
-Extract structured financial data from the given content and format it as JSON.
-Include key financial metrics, tables, and statements found in the document.
+# extract_financial_data_prompt = """
+# Extract structured financial data from the given content and format it as JSON.
+# Include key financial metrics, tables, and statements found in the document.
 
-Content to analyze:
-{context}
+# Content to analyze:
+# {context}
 
-{format_instructions}
-"""
+# {format_instructions}
+# """
 
 def setup_api_keys():
     """Set up API keys from .env file"""
