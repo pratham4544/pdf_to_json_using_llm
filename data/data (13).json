@@ -1,0 +1,272 @@
+{
+    "Standalone_financial_results_for_all_months": {
+        "Quarter Ended": {
+            "31.12.2024": {
+                "Revenue from operations": 13822,
+                "Other income": 41,
+                "Total Revenue": 13863,
+                "Cost of materials consumed": 8633,
+                "Purchases of Stock-in-trade": 1,
+                "Changes in Inventories of Finished Goods,Stock-in-Trade and Work-in-Progress": 448,
+                "Employee benefit expenses": 791,
+                "Finance cost": 626,
+                "Depreciation and amortisation expenses": 376,
+                "Other expenses": 3017,
+                "Total expenses": 12996,
+                "Profit/Loss before exceptional items and tax": 867,
+                "Profit/Loss before tax": 867,
+                "Tax Expenses": {
+                    "Current Tax": 152,
+                    "Deferred Tax": 72,
+                    "Total Tax Expenses": 224
+                },
+                "Net Profit/Loss for the period from continuing operations": 643
+            },
+            "30.09.2024": {
+                "Revenue from operations": 15252,
+                "Other income": 37,
+                "Total Revenue": 15289,
+                "Cost of materials consumed": 9525,
+                "Purchases of Stock-in-trade": 1,
+                "Changes in Inventories of Finished Goods,Stock-in-Trade and Work-in-Progress": 464,
+                "Employee benefit expenses": 707,
+                "Finance cost": 474,
+                "Depreciation and amortisation expenses": 310,
+                "Other expenses": 2743,
+                "Total expenses": 13296,
+                "Profit/Loss before exceptional items and tax": 1993,
+                "Profit/Loss before tax": 1993,
+                "Tax Expenses": {
+                    "Current Tax": 310,
+                    "Deferred Tax": 202,
+                    "Total Tax Expenses": 512
+                },
+                "Net Profit/Loss for the period from continuing operations": 1481
+            },
+            "31.12.2023": {
+                "Revenue from operations": 13769,
+                "Other income": 36,
+                "Total Revenue": 13805,
+                "Cost of materials consumed": 8763,
+                "Purchases of Stock-in-trade": 4,
+                "Changes in Inventories of Finished Goods,Stock-in-Trade and Work-in-Progress": 220,
+                "Employee benefit expenses": 666,
+                "Finance cost": 373,
+                "Depreciation and amortisation expenses": 226,
+                "Other expenses": 2358,
+                "Total expenses": 12170,
+                "Profit/Loss before exceptional items and tax": 1635,
+                "Profit/Loss before tax": 1635,
+                "Tax Expenses": {
+                    "Current Tax": 387,
+                    "Deferred Tax": 31,
+                    "Total Tax Expenses": 418
+                },
+                "Net Profit/Loss for the period from continuing operations": 1217
+            }
+        },
+        "Nine Month Ended": {
+            "31.12.2024": {
+                "Revenue from operations": 43137,
+                "Other income": 103,
+                "Total Revenue": 43240,
+                "Cost of materials consumed": 27210,
+                "Purchases of Stock-in-trade": 4,
+                "Changes in Inventories of Finished Goods,Stock-in-Trade and Work-in-Progress": 1119,
+                "Employee benefit expenses": 2068,
+                "Finance cost": 1472,
+                "Depreciation and amortisation expenses": 912,
+                "Other expenses": 8208,
+                "Total expenses": 38755,
+                "Profit/Loss before exceptional items and tax": 4485,
+                "Profit/Loss before tax": 4485,
+                "Tax Expenses": {
+                    "Current Tax": 867,
+                    "Deferred Tax": 291,
+                    "Total Tax Expenses": 1158
+                },
+                "Net Profit/Loss for the period from continuing operations": 3327
+            },
+            "31.12.2023": {
+                "Revenue from operations": 41694,
+                "Other income": 88,
+                "Total Revenue": 41782,
+                "Cost of materials consumed": 26443,
+                "Purchases of Stock-in-trade": 9,
+                "Changes in Inventories of Finished Goods,Stock-in-Trade and Work-in-Progress": 564,
+                "Employee benefit expenses": 1914,
+                "Finance cost": 1181,
+                "Depreciation and amortisation expenses": 695,
+                "Other expenses": 6720,
+                "Total expenses": 36398,
+                "Profit/Loss before exceptional items and tax": 5384,
+                "Profit/Loss before tax": 5384,
+                "Tax Expenses": {
+                    "Current Tax": 1304,
+                    "Deferred Tax": 82,
+                    "Total Tax Expenses": 1386
+                },
+                "Net Profit/Loss for the period from continuing operations": 3998
+            }
+        },
+        "Year Ended": {
+            "31.03.2024": {
+                "Revenue from operations": 55646,
+                "Other income": 130,
+                "Total Revenue": 55776,
+                "Cost of materials consumed": 34179,
+                "Purchases of Stock-in-trade": 62,
+                "Changes in Inventories of Finished Goods,Stock-in-Trade and Work-in-Progress": 100,
+                "Employee benefit expenses": 2488,
+                "Finance cost": 1504,
+                "Depreciation and amortisation expenses": 911,
+                "Other expenses": 9038,
+                "Total expenses": 48282,
+                "Profit/Loss before exceptional items and tax": 7494,
+                "Profit/Loss before tax": 7494,
+                "Tax Expenses": {
+                    "Current Tax": 1807,
+                    "Deferred Tax": 103,
+                    "Total Tax Expenses": 1910
+                },
+                "Net Profit/Loss for the period from continuing operations": 5584
+            }
+        }
+    },
+    "Balance_sheet": "Balance_sheet_are_not_present",
+    "Cash_flow_statements": "Cash_flow_statements_are_not_present",
+    "Statement_Consolidated_finanacial_results_for_all_months": {
+        "Quarter Ended": {
+            "31.12.2024": {
+                "Revenue from operations": 21836,
+                "Other income": 41,
+                "Total Revenue": 21877,
+                "Cost of materials consumed": 14233,
+                "Purchases of Stock-in-trade": 1,
+                "Changes in Inventories of Finished Goods,Stock-in-Trade and Work-in-Progress": 788,
+                "Employee benefit expenses": 1166,
+                "Finance cost": 787,
+                "Depreciation and amortisation expenses": 644,
+                "Other expenses": 4601,
+                "Total expenses": 20642,
+                "Profit/Loss before exceptional items and tax": 1235,
+                "Profit/Loss before tax": 1235,
+                "Tax Expenses": {
+                    "Current Tax": 231,
+                    "Deferred Tax": 72,
+                    "Total Tax Expenses": 303
+                },
+                "Net Profit/Loss for the period from continuing operations": 932
+            },
+            "30.09.2024": {
+                "Revenue from operations": 24533,
+                "Other income": 15,
+                "Total Revenue": 24548,
+                "Cost of materials consumed": 15773,
+                "Purchases of Stock-in-trade": 2,
+                "Changes in Inventories of Finished Goods,Stock-in-Trade and Work-in-Progress": 559,
+                "Employee benefit expenses": 1072,
+                "Finance cost": 769,
+                "Depreciation and amortisation expenses": 571,
+                "Other expenses": 4458,
+                "Total expenses": 22084,
+                "Profit/Loss before exceptional items and tax": 2464,
+                "Profit/Loss before tax": 2464,
+                "Tax Expenses": {
+                    "Current Tax": 357,
+                    "Deferred Tax": 202,
+                    "Total Tax Expenses": 559
+                },
+                "Net Profit/Loss for the period from continuing operations": 1905
+            },
+            "31.12.2023": {
+                "Revenue from operations": 23269,
+                "Other income": 112,
+                "Total Revenue": 23261,
+                "Cost of materials consumed": 15131,
+                "Purchases of Stock-in-trade": 26,
+                "Changes in Inventories of Finished Goods,Stock-in-Trade and Work-in-Progress": 26,
+                "Employee benefit expenses": 1003,
+                "Finance cost": 503,
+                "Depreciation and amortisation expenses": 464,
+                "Other expenses": 3684,
+                "Total expenses": 20813,
+                "Profit/Loss before exceptional items and tax": 2448,
+                "Profit/Loss before tax": 2448,
+                "Tax Expenses": {
+                    "Current Tax": 449,
+                    "Deferred Tax": 31,
+                    "Total Tax Expenses": 480
+                },
+                "Net Profit/Loss for the period from continuing operations": 1968
+            }
+        },
+        "Nine Month Ended": {
+            "31.12.2024": {
+                "Revenue from operations": 68383,
+                "Other income": 240,
+                "Total Revenue": 68495,
+                "Cost of materials consumed": 44839,
+                "Purchases of Stock-in-trade": 4,
+                "Changes in Inventories of Finished Goods,Stock-in-Trade and Work-in-Progress": 1803,
+                "Employee benefit expenses": 3138,
+                "Finance cost": 2069,
+                "Depreciation and amortisation expenses": 1676,
+                "Other expenses": 12846,
+                "Total expenses": 62764,
+                "Profit/Loss before exceptional items and tax": 5731,
+                "Profit/Loss before tax": 5731,
+                "Tax Expenses": {
+                    "Current Tax": 1079,
+                    "Deferred Tax": 291,
+                    "Total Tax Expenses": 1370
+                },
+                "Net Profit/Loss for the period from continuing operations": 4361
+            },
+            "31.12.2023": {
+                "Revenue from operations": 65088,
+                "Other income": 340,
+                "Total Revenue": 65328,
+                "Cost of materials consumed": 42674,
+                "Purchases of Stock-in-trade": 2,
+                "Changes in Inventories of Finished Goods,Stock-in-Trade and Work-in-Progress": 394,
+                "Employee benefit expenses": 2957,
+                "Finance cost": 1512,
+                "Depreciation and amortisation expenses": 1317,
+                "Other expenses": 10522,
+                "Total expenses": 58590,
+                "Profit/Loss before exceptional items and tax": 6738,
+                "Profit/Loss before tax": 6738,
+                "Tax Expenses": {
+                    "Current Tax": 1497,
+                    "Deferred Tax": 82,
+                    "Total Tax Expenses": 1579
+                },
+                "Net Profit/Loss for the period from continuing operations": 5159
+            }
+        },
+        "Year Ended": {
+            "31.03.2024": {
+                "Revenue from operations": 89045,
+                "Other income": 340,
+                "Total Revenue": 89385,
+                "Cost of materials consumed": 57770,
+                "Purchases of Stock-in-trade": 52,
+                "Changes in Inventories of Finished Goods,Stock-in-Trade and Work-in-Progress": 315,
+                "Employee benefit expenses": 3852,
+                "Finance cost": 1955,
+                "Depreciation and amortisation expenses": 1772,
+                "Other expenses": 14289,
+                "Total expenses": 80005,
+                "Profit/Loss before exceptional items and tax": 9380,
+                "Profit/Loss before tax": 9380,
+                "Tax Expenses": {
+                    "Current Tax": 2094,
+                    "Deferred Tax": 103,
+                    "Total Tax Expenses": 2197
+                },
+                "Net Profit/Loss for the period from continuing operations": 7183
+            }
+        }
+    }
+}

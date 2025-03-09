@@ -1,0 +1,242 @@
+{
+    "Standalone_financial_results_for_all_months": {
+        "Quarter Ended": {
+            "31-DEC-2024": {
+                "Income From Operations": {
+                    "a. Income from Operations": 4463.99,
+                    "b. Other Income": 2.47,
+                    "Total Income from operations": 4466.46
+                },
+                "Expenses": {
+                    "a. Cost of material consumed": 2100.58,
+                    "b. Purchase of Stock-in-trade": 214.15,
+                    "c. Changes in inventories of Finished Goods, Work-in-Progress": 264.52,
+                    "d. Employees benefit expense": 263.88,
+                    "e. Finance Costs": 63.32,
+                    "f. Depreciation and amortisation expense": 79.55,
+                    "g. Job Charges": 878.17,
+                    "h. Other expenses": 465.31,
+                    "Total Expenses": 4329.47
+                },
+                "Profit/Loss before tax (1-2)": 136.99,
+                "Tax Expense": {
+                    "Current Tax": 0,
+                    "Deferred Tax": 36.68
+                },
+                "Net Profit/Loss for the period (3-4)": 100.3,
+                "Other Comprehensive Income": {
+                    "A. Items that will not be reclassified to profit or loss": {
+                        "i. Income tax relating to items that will not be reclassified to profit or loss": 0.22
+                    },
+                    "B. Items that will be reclassified to profit or loss": {
+                        "i. Income tax relating to items that will be reclassified to profit or loss": 0
+                    }
+                },
+                "Total Comprehensive Income for the period Comprising Profit/Loss and Other Comprehensive Income for the period (5+6)": 100.99,
+                "Paid-up equity share capital (Face Value \u20b910/- each)": 586.94,
+                "Earnings per share of \u20b910/- each (not annualised)": {
+                    "a. Basic": 1.71,
+                    "b. Diluted": 1.71
+                }
+            },
+            "30-SEPT-2024": {
+                "Income From Operations": {
+                    "a. Income from Operations": 4403.25,
+                    "b. Other Income": 60.9,
+                    "Total Income from operations": 4464.15
+                },
+                "Expenses": {
+                    "a. Cost of material consumed": 2810.09,
+                    "b. Purchase of Stock-in-trade": 330.05,
+                    "c. Changes in inventories of Finished Goods, Work-in-Progress": 253.63,
+                    "d. Employees benefit expense": 254.74,
+                    "e. Finance Costs": 108,
+                    "f. Depreciation and amortisation expense": 111.51,
+                    "g. Job Charges": 932.55,
+                    "h. Other expenses": 497.15,
+                    "Total Expenses": 4434.74
+                },
+                "Profit/Loss before tax (1-2)": 29.4,
+                "Tax Expense": {
+                    "Current Tax": 0,
+                    "Deferred Tax": 4.42
+                },
+                "Net Profit/Loss for the period (3-4)": 24.98,
+                "Other Comprehensive Income": {
+                    "A. Items that will not be reclassified to profit or loss": {
+                        "i. Income tax relating to items that will not be reclassified to profit or loss": 0.2
+                    },
+                    "B. Items that will be reclassified to profit or loss": {
+                        "i. Income tax relating to items that will be reclassified to profit or loss": 0
+                    }
+                },
+                "Total Comprehensive Income for the period Comprising Profit/Loss and Other Comprehensive Income for the period (5+6)": 24.78,
+                "Paid-up equity share capital (Face Value \u20b910/- each)": 586.94,
+                "Earnings per share of \u20b910/- each (not annualised)": {
+                    "a. Basic": 0.43,
+                    "b. Diluted": 0.43
+                }
+            },
+            "31DEC -2023": {
+                "Income From Operations": {
+                    "a. Income from Operations": 5727.44,
+                    "b. Other Income": 2.11,
+                    "Total Income from operations": 5729.55
+                },
+                "Expenses": {
+                    "a. Cost of material consumed": 2526.36,
+                    "b. Purchase of Stock-in-trade": 1563.06,
+                    "c. Changes in inventories of Finished Goods, Work-in-Progress": 282.32,
+                    "d. Employees benefit expense": 523.44,
+                    "e. Finance Costs": 179.21,
+                    "f. Depreciation and amortisation expense": 103.18,
+                    "g. Job Charges": 654.38,
+                    "h. Other expenses": 615.53,
+                    "Total Expenses": 5882.84
+                },
+                "Profit/Loss before tax (1-2)": 153.29,
+                "Tax Expense": {
+                    "Current Tax": 0,
+                    "Deferred Tax": 53.14
+                },
+                "Net Profit/Loss for the period (3-4)": 100.1,
+                "Other Comprehensive Income": {
+                    "A. Items that will not be reclassified to profit or loss": {
+                        "i. Income tax relating to items that will not be reclassified to profit or loss": 0.63
+                    },
+                    "B. Items that will be reclassified to profit or loss": {
+                        "i. Income tax relating to items that will be reclassified to profit or loss": 0
+                    }
+                },
+                "Total Comprehensive Income for the period Comprising Profit/Loss and Other Comprehensive Income for the period (5+6)": 98.28,
+                "Paid-up equity share capital (Face Value \u20b910/- each)": 586.94,
+                "Earnings per share of \u20b910/- each (not annualised)": {
+                    "a. Basic": 1.71,
+                    "b. Diluted": 1.7
+                }
+            }
+        },
+        "Nine Month Ended": {
+            "31DEC 2024": {
+                "Income From Operations": {
+                    "a. Income from Operations": 13498.72,
+                    "b. Other Income": 78.03,
+                    "Total Income from operations": 13576.75
+                },
+                "Expenses": {
+                    "a. Cost of material consumed": 7266.44,
+                    "b. Purchase of Stock-in-trade": 964.71,
+                    "c. Changes in inventories of Finished Goods, Work-in-Progress": 368.9,
+                    "d. Employees benefit expense": 839.72,
+                    "e. Finance Costs": 307.21,
+                    "f. Depreciation and amortisation expense": 242.47,
+                    "g. Job Charges": 2612.38,
+                    "h. Other expenses": 1524.57,
+                    "Total Expenses": 13388.55
+                },
+                "Profit/Loss before tax (1-2)": 188.2,
+                "Tax Expense": {
+                    "Current Tax": 0,
+                    "Deferred Tax": 47.87
+                },
+                "Net Profit/Loss for the period (3-4)": 140.32,
+                "Other Comprehensive Income": {
+                    "A. Items that will not be reclassified to profit or loss": {
+                        "i. Income tax relating to items that will not be reclassified to profit or loss": 0.6
+                    },
+                    "B. Items that will be reclassified to profit or loss": {
+                        "i. Income tax relating to items that will be reclassified to profit or loss": 0
+                    }
+                },
+                "Total Comprehensive Income for the period Comprising Profit/Loss and Other Comprehensive Income for the period (5+6)": 142.36,
+                "Paid-up equity share capital (Face Value \u20b910/- each)": 586.94,
+                "Earnings per share of \u20b910/- each (not annualised)": {
+                    "a. Basic": 2.39,
+                    "b. Diluted": 2.39
+                }
+            },
+            "31-DEC-2023": {
+                "Income From Operations": {
+                    "a. Income from Operations": 16247.87,
+                    "b. Other Income": 11.45,
+                    "Total Income from operations": 16259.32
+                },
+                "Expenses": {
+                    "a. Cost of material consumed": 7365.89,
+                    "b. Purchase of Stock-in-trade": 2864.59,
+                    "c. Changes in inventories of Finished Goods, Work-in-Progress": 73.71,
+                    "d. Employees benefit expense": 1809.4,
+                    "e. Finance Costs": 544.22,
+                    "f. Depreciation and amortisation expense": 341.23,
+                    "g. Job Charges": 1904.65,
+                    "h. Other expenses": 1901.79,
+                    "Total Expenses": 16805.48
+                },
+                "Profit/Loss before tax (1-2)": 546.16,
+                "Tax Expense": {
+                    "Current Tax": 0,
+                    "Deferred Tax": 175.5
+                },
+                "Net Profit/Loss for the period (3-4)": 370.58,
+                "Other Comprehensive Income": {
+                    "A. Items that will not be reclassified to profit or loss": {
+                        "i. Income tax relating to items that will not be reclassified to profit or loss": 4.71
+                    },
+                    "B. Items that will be reclassified to profit or loss": {
+                        "i. Income tax relating to items that will be reclassified to profit or loss": 0
+                    }
+                },
+                "Total Comprehensive Income for the period Comprising Profit/Loss and Other Comprehensive Income for the period (5+6)": 356.5,
+                "Paid-up equity share capital (Face Value \u20b910/- each)": 586.94,
+                "Earnings per share of \u20b910/- each (not annualised)": {
+                    "a. Basic": 6.3,
+                    "b. Diluted": 6.3
+                }
+            }
+        },
+        "Year Ended": {
+            "31-Mar-2024": {
+                "Income From Operations": {
+                    "a. Income from Operations": 21760.03,
+                    "b. Other Income": 511.7,
+                    "Total Income from operations": 22271.73
+                },
+                "Expenses": {
+                    "a. Cost of material consumed": 9992.2,
+                    "b. Purchase of Stock-in-trade": 3477.84,
+                    "c. Changes in inventories of Finished Goods, Work-in-Progress": 223.2,
+                    "d. Employees benefit expense": 2082.63,
+                    "e. Finance Costs": 742.9,
+                    "f. Depreciation and amortisation expense": 457.63,
+                    "g. Job Charges": 2767.18,
+                    "h. Other expenses": 2705.27,
+                    "Total Expenses": 22448.84
+                },
+                "Profit/Loss before tax (1-2)": 177.1,
+                "Tax Expense": {
+                    "Current Tax": 0,
+                    "Deferred Tax": 36.2
+                },
+                "Net Profit/Loss for the period (3-4)": 140.9,
+                "Other Comprehensive Income": {
+                    "A. Items that will not be reclassified to profit or loss": {
+                        "i. Income tax relating to items that will not be reclassified to profit or loss": 0.91
+                    },
+                    "B. Items that will be reclassified to profit or loss": {
+                        "i. Income tax relating to items that will be reclassified to profit or loss": 0
+                    }
+                },
+                "Total Comprehensive Income for the period Comprising Profit/Loss and Other Comprehensive Income for the period (5+6)": 143.6,
+                "Paid-up equity share capital (Face Value \u20b910/- each)": 586.94,
+                "Other Equity Excluding revaluation reserve": 2850.65,
+                "Earnings per share of \u20b910/- each (not annualised)": {
+                    "a. Basic": 2.4,
+                    "b. Diluted": 2.4
+                }
+            }
+        }
+    },
+    "Balance_sheet": "Balance_sheet_are_not_present",
+    "Cash_flow_statements": "Cash_flow_statements_are_not_present",
+    "Statement_Consolidated_finanacial_results_for_all_months": "Statement_Consolidated_finanacial_results_for_all_months_are_not_present"
+}

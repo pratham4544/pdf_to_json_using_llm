@@ -1,0 +1,197 @@
+{
+    "Standalone_financial_results_for_all_months": {
+        "Quarter Ended": {
+            "3 Months ended 31-12-2024": {
+                "Revenue from operations": 816.84,
+                "Other income": 371.14,
+                "Total Revenue": 1187.98,
+                "Cost of materials consumed": 131.9,
+                "Changes in inventories of finished goods, work in-progress and stock in trade": 0.0,
+                "Employee benefits expense": 96.53,
+                "Finance costs": 10.01,
+                "Depreciation and amortisation expense": 12.73,
+                "Other expenses": 247.95,
+                "Total Expenses": 499.12,
+                "Profit before exceptional and extraordinary items and tax": 688.86,
+                "Exceptional Items": 0.0,
+                "Profit/ Loss before tax from continuing operations": 688.86,
+                "Tax Expense from continuing operations": 295.59,
+                "Profit/ Loss for the period from continuing operations": 393.27,
+                "Profit/Loss before tax from discontinued operations": 0.0,
+                "Tax Expense from discontinued operations": 0.0,
+                "Profit/Loss for the period from discontinued operations": 0.0,
+                "Other comprehensive income": 0.47,
+                "Total comprehensive income": 393.74,
+                "Paid-up equity share capital": 1066.27,
+                "Earnings per equity share (Continuing Operations)": {
+                    "Basic": 0.37,
+                    "Diluted": 0.37
+                },
+                "Earnings per equity share (Discontinued Operaions)": {
+                    "Basic": 0.0,
+                    "Diluted": 0.0
+                }
+            },
+            "Preceding 3 Months ended 30-09-2024": {
+                "Revenue from operations": 470.47,
+                "Other income": 159.82,
+                "Total Revenue": 630.29,
+                "Cost of materials consumed": 120.53,
+                "Changes in inventories of finished goods, work in-progress and stock in trade": 0.0,
+                "Employee benefits expense": 94.56,
+                "Finance costs": 10.56,
+                "Depreciation and amortisation expense": 12.68,
+                "Other expenses": 271.59,
+                "Total Expenses": 509.92,
+                "Profit before exceptional and extraordinary items and tax": 120.37,
+                "Exceptional Items": 0.0,
+                "Profit/ Loss before tax from continuing operations": 120.37,
+                "Tax Expense from continuing operations": 40.52,
+                "Profit/ Loss for the period from continuing operations": 79.85,
+                "Profit/Loss before tax from discontinued operations": 0.0,
+                "Tax Expense from discontinued operations": 0.0,
+                "Profit/Loss for the period from discontinued operations": 0.0,
+                "Other comprehensive income": 1.69,
+                "Total comprehensive income": 81.54,
+                "Paid-up equity share capital": 1066.27,
+                "Earnings per equity share (Continuing Operations)": {
+                    "Basic": 0.07,
+                    "Diluted": 0.07
+                },
+                "Earnings per equity share (Discontinued Operaions)": {
+                    "Basic": 0.0,
+                    "Diluted": 0.0
+                }
+            },
+            "Corresponding 3 months ended in the previous year 31-12-2023": {
+                "Revenue from operations": 584.26,
+                "Other income": 38.23,
+                "Total Revenue": 622.49,
+                "Cost of materials consumed": 298.02,
+                "Changes in inventories of finished goods, work in-progress and stock in trade": 0.23,
+                "Employee benefits expense": 64.97,
+                "Finance costs": 129.51,
+                "Depreciation and amortisation expense": 180.37,
+                "Other expenses": 295.1,
+                "Total Expenses": 968.2,
+                "Profit before exceptional and extraordinary items and tax": 345.71,
+                "Exceptional Items": 1928.25,
+                "Profit/ Loss before tax from continuing operations": 1582.54,
+                "Tax Expense from continuing operations": 4262.94,
+                "Profit/ Loss for the period from continuing operations": 4545.48,
+                "Profit/Loss before tax from discontinued operations": 0.0,
+                "Tax Expense from discontinued operations": 0.0,
+                "Profit/Loss for the period from discontinued operations": 0.0,
+                "Other comprehensive income": 1.16,
+                "Total comprehensive income": 4544.32,
+                "Paid-up equity share capital": 1053.01,
+                "Earnings per equity share (Continuing Operations)": {
+                    "Basic": 3.43,
+                    "Diluted": 3.43
+                },
+                "Earnings per equity share (Discontinued Operaions)": {
+                    "Basic": 0.0,
+                    "Diluted": 0.0
+                }
+            }
+        },
+        "Nine Months Ended": {
+            "Year to date figures for nine months ended 31-12-2024": {
+                "Revenue from operations": 1916.16,
+                "Other income": 973.68,
+                "Total Revenue": 2889.84,
+                "Cost of materials consumed": 351.01,
+                "Changes in inventories of finished goods, work in-progress and stock in trade": 0.0,
+                "Employee benefits expense": 279.66,
+                "Finance costs": 22.94,
+                "Depreciation and amortisation expense": 37.16,
+                "Other expenses": 906.71,
+                "Total Expenses": 1597.48,
+                "Profit before exceptional and extraordinary items and tax": 1292.36,
+                "Exceptional Items": 0.0,
+                "Profit/ Loss before tax from continuing operations": 1292.36,
+                "Tax Expense from continuing operations": 437.73,
+                "Profit/ Loss for the period from continuing operations": 854.63,
+                "Profit/Loss before tax from discontinued operations": 0.0,
+                "Tax Expense from discontinued operations": 0.0,
+                "Profit/Loss for the period from discontinued operations": 0.0,
+                "Other comprehensive income": 1.4,
+                "Total comprehensive income": 856.03,
+                "Paid-up equity share capital": 1066.27,
+                "Earnings per equity share (Continuing Operations)": {
+                    "Basic": 0.81,
+                    "Diluted": 0.81
+                },
+                "Earnings per equity share (Discontinued Operaions)": {
+                    "Basic": 0.0,
+                    "Diluted": 0.0
+                }
+            },
+            "Year to date figures for nine months ended 31-12-2023": {
+                "Revenue from operations": 1988.29,
+                "Other income": 99.6,
+                "Total Revenue": 2087.89,
+                "Cost of materials consumed": 945.99,
+                "Changes in inventories of finished goods, work in-progress and stock in trade": 0.42,
+                "Employee benefits expense": 194.74,
+                "Finance costs": 1044.33,
+                "Depreciation and amortisation expense": 539.3,
+                "Other expenses": 1039.72,
+                "Total Expenses": 1676.61,
+                "Profit before exceptional and extraordinary items and tax": 251.64,
+                "Exceptional Items": 1928.25,
+                "Profit/ Loss before tax from continuing operations": 251.64,
+                "Tax Expense from continuing operations": 4358.37,
+                "Profit/ Loss for the period from continuing operations": 3310.01,
+                "Profit/Loss before tax from discontinued operations": 0.0,
+                "Tax Expense from discontinued operations": 0.0,
+                "Profit/Loss for the period from discontinued operations": 0.0,
+                "Other comprehensive income": 3.48,
+                "Total comprehensive income": 3306.53,
+                "Paid-up equity share capital": 1053.01,
+                "Earnings per equity share (Continuing Operations)": {
+                    "Basic": 2.5,
+                    "Diluted": 2.5
+                },
+                "Earnings per equity share (Discontinued Operaions)": {
+                    "Basic": 0.0,
+                    "Diluted": 0.0
+                }
+            },
+            "Year to date figures for twelve months ended 31-03-2024": {
+                "Revenue from operations": 2672.64,
+                "Other income": 2614.64,
+                "Total Revenue": 5287.28,
+                "Cost of materials consumed": 1271.59,
+                "Changes in inventories of finished goods, work in-progress and stock in trade": 45.05,
+                "Employee benefits expense": 284.56,
+                "Finance costs": 1046.4,
+                "Depreciation and amortisation expense": 1077.6,
+                "Other expenses": 3764.5,
+                "Total Expenses": 4478.2,
+                "Profit before exceptional and extraordinary items and tax": 809.08,
+                "Exceptional Items": 963.4,
+                "Profit/ Loss before tax from continuing operations": 154.32,
+                "Tax Expense from continuing operations": 3049.89,
+                "Profit/ Loss for the period from continuing operations": 2895.57,
+                "Profit/Loss before tax from discontinued operations": 0.0,
+                "Tax Expense from discontinued operations": 0.0,
+                "Profit/Loss for the period from discontinued operations": 0.0,
+                "Other comprehensive income": 3.04,
+                "Total comprehensive income": 2892.53,
+                "Paid-up equity share capital": 1053.01,
+                "Earnings per equity share (Continuing Operations)": {
+                    "Basic": 1.83,
+                    "Diluted": 1.83
+                },
+                "Earnings per equity share (Discontinued Operaions)": {
+                    "Basic": 0.0,
+                    "Diluted": 0.0
+                }
+            }
+        }
+    },
+    "Balance_sheet": "Balance_sheet_are_not_present",
+    "Cash_flow_statements": "Cash_flow_statements_are_not_present",
+    "Statement_Consolidated_finanacial_results_for_all_months": "Statement_Consolidated_finanacial_results_for_all_months_are_not_present"
+}
