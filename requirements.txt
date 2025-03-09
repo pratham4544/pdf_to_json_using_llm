@@ -18,3 +18,4 @@ faiss-cpu>=1.7.0
 
 # For OCR support
 pytesseract>=0.3.0
+opencv-python
