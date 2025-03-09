@@ -2,28 +2,38 @@ import base64
 import os
 import re
 import json
-from typing import List, Dict, Tuple, Any
+from typing import Dict, Any, List
+from dotenv import load_dotenv
 
-import streamlit as st
-from langchain_google_genai import ChatGoogleGenerativeAI, GoogleGenerativeAIEmbeddings
+from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_groq import ChatGroq
 from langchain_core.output_parsers import JsonOutputParser
 from langchain_core.messages import HumanMessage
 from langchain_core.prompts import PromptTemplate
-from langchain_community.document_loaders import TextLoader
-from langchain_text_splitters import CharacterTextSplitter
 from unstructured.partition.pdf import partition_pdf
 
-from src.prompt import extract_financial_data_prompt
+# Simple prompt for extracting financial data
+extract_financial_data_prompt = """
+Extract structured financial data from the given content and format it as JSON.
+Include key financial metrics, tables, and statements found in the document.
+
+Content to analyze:
+{context}
+
+{format_instructions}
+"""
 
 def setup_api_keys():
-    """Set up API keys from Streamlit secrets or environment variables"""
-    groq_api_key = st.secrets["GROQ_API_KEY"] if "GROQ_API_KEY" in st.secrets else os.environ.get("GROQ_API_KEY")
-    google_api_key = st.secrets["GOOGLE_API_KEY"] if "GOOGLE_API_KEY" in st.secrets else os.environ.get("GOOGLE_API_KEY")
+    """Set up API keys from .env file"""
+    # Load environment variables from .env file
+    load_dotenv()
+    
+    # Get API keys from environment variables
+    groq_api_key = os.getenv("GROQ_API_KEY")
+    google_api_key = os.getenv("GOOGLE_API_KEY")
     
     if not groq_api_key or not google_api_key:
-        st.error("API keys are missing. Please set GROQ_API_KEY and GOOGLE_API_KEY in your secrets or environment variables.")
-        st.stop()
+        raise ValueError("API keys are missing. Please set GROQ_API_KEY and GOOGLE_API_KEY in your .env file.")
     
     return groq_api_key, google_api_key
 
@@ -123,7 +133,7 @@ def extract_financial_data(content: str, google_api_key: str) -> Dict[str, Any]:
         response = chain.invoke({"context": content})
         return response
     except Exception as e:
-        st.error(f"Error parsing data: {str(e)}")
+        print(f"Error parsing data: {str(e)}")
         
         # Try to fix the JSON with another model call
         output = model.invoke(f"Fix this JSON and ensure it's properly formatted:\n{content}")
@@ -154,25 +164,12 @@ def process_pdf_pipeline(pdf_path: str, groq_api_key: str, google_api_key: str) 
     # Combine all data
     combined_text = f"Text from PDF {text_data}:\nTable Data:\n{' '.join(table_data)}\n\n"
     
-    # Save combined data to a temporary file
-    with open('temp_output.txt', 'w') as f:
-        f.write(combined_text)
-    
-    # Load the text and split it
-    loader = TextLoader("temp_output.txt")
-    raw_text = loader.load()
-    
-    # Extract content from Document objects
-    content = []
-    for i in range(len(raw_text)):
-        content.append(raw_text[i].page_content)
-    content = ' '.join(content)
-    
     # Extract structured financial data
-    financial_data = extract_financial_data(content, google_api_key)
+    financial_data = extract_financial_data(combined_text, google_api_key)
     
-    # Clean up temporary file
-    if os.path.exists('temp_output.txt'):
-        os.remove('temp_output.txt')
+    # Clean up temporary directories
+    if os.path.exists("extracted_data"):
+        import shutil
+        shutil.rmtree("extracted_data", ignore_errors=True)
     
     return financial_data
