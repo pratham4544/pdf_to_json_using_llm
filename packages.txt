@@ -1,0 +1,6 @@
+poppler-utils
+libleptonica-dev
+tesseract-ocr
+libtesseract-dev
+tesseract-ocr-eng
+tesseract-ocr-script-latn
