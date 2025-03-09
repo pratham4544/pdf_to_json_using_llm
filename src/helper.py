@@ -137,8 +137,8 @@ def extract_financial_data(content: str, google_api_key: str) -> Dict[str, Any]:
         print(f"Error parsing data: {str(e)}")
         
         # Try to fix the JSON with another model call
-        output = model.invoke(f"Fix this JSON and ensure it's properly formatted:\n{content}")
-        cleaned_output = output.content.replace("```json", "").replace("```", "").strip()
+        # output = model.invoke(f"Fix this JSON and ensure it's properly formatted:\n{content}")
+        cleaned_output = response
         
         try:
             return json.loads(cleaned_output)
