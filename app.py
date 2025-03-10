@@ -11,6 +11,10 @@ st.set_page_config(
     page_icon="📊",
 )
 
+# Initialize session state for selected sample
+if 'selected_sample' not in st.session_state:
+    st.session_state.selected_sample = None
+
 # App title and description
 st.title("Financial PDF Data Extractor")
 st.markdown("Upload your PDF file to extract structured financial data.")
@@ -33,14 +37,23 @@ sample_pdfs.sort()
 
 # Create columns for sample PDF buttons
 sample_cols = st.columns(min(4, len(sample_pdfs)))
-selected_sample = None
+
+# Function to handle sample selection
+def select_sample(pdf_file):
+    st.session_state.selected_sample = os.path.join("data", pdf_file)
 
 # Create buttons for each sample PDF
 for i, pdf_file in enumerate(sample_pdfs):
     col_idx = i % len(sample_cols)
     with sample_cols[col_idx]:
-        if st.button(f"Sample {i+1}: {pdf_file}"):
-            selected_sample = os.path.join("data", pdf_file)
+        if st.button(f"Sample {i+1}: {pdf_file}", key=f"sample_btn_{i}", 
+                    type="secondary" if st.session_state.selected_sample != os.path.join("data", pdf_file) else "primary"):
+            select_sample(pdf_file)
+
+# Clear sample selection button
+if st.session_state.selected_sample:
+    if st.button("Clear Sample Selection", type="secondary"):
+        st.session_state.selected_sample = None
 
 # File uploader
 st.subheader("Or Upload Your Own PDF")
@@ -50,9 +63,9 @@ uploaded_file = st.file_uploader("Upload a PDF file", type=["pdf"])
 pdf_to_process = None
 pdf_name = None
 
-if selected_sample:
-    pdf_to_process = selected_sample
-    pdf_name = os.path.basename(selected_sample)
+if st.session_state.selected_sample:
+    pdf_to_process = st.session_state.selected_sample
+    pdf_name = os.path.basename(st.session_state.selected_sample)
     st.success(f"Using sample PDF: {pdf_name}")
 elif uploaded_file is not None:
     # Create a temporary file for the uploaded PDF
@@ -63,7 +76,7 @@ elif uploaded_file is not None:
 
 if pdf_to_process:
     # Process button
-    if st.button("Process PDF"):
+    if st.button("Process PDF", key="process_btn"):
         try:
             # Create a status container
             status_container = st.container()
@@ -144,8 +157,8 @@ if pdf_to_process:
             st.json(financial_data)
             
             # Check if there's a corresponding JSON file for the sample
-            if selected_sample:
-                json_file_path = selected_sample.replace('.pdf', '.json')
+            if st.session_state.selected_sample:
+                json_file_path = st.session_state.selected_sample.replace('.pdf', '.json')
                 if os.path.exists(json_file_path):
                     with open(json_file_path, 'r') as f:
                         expected_json = json.load(f)
