@@ -23,10 +23,45 @@ except Exception as e:
     st.info("Make sure you have a .env file in your project root with GROQ_API_KEY and GOOGLE_API_KEY defined.")
     st.stop()
 
+# Sample PDF section
+st.subheader("Use Sample PDF")
+st.markdown("Click on one of the sample PDFs below to test the application:")
+
+# Get list of sample PDFs
+sample_pdfs = [f for f in os.listdir("data") if f.endswith(".pdf")]
+sample_pdfs.sort()
+
+# Create columns for sample PDF buttons
+sample_cols = st.columns(min(4, len(sample_pdfs)))
+selected_sample = None
+
+# Create buttons for each sample PDF
+for i, pdf_file in enumerate(sample_pdfs):
+    col_idx = i % len(sample_cols)
+    with sample_cols[col_idx]:
+        if st.button(f"Sample {i+1}: {pdf_file}"):
+            selected_sample = os.path.join("data", pdf_file)
+
 # File uploader
+st.subheader("Or Upload Your Own PDF")
 uploaded_file = st.file_uploader("Upload a PDF file", type=["pdf"])
 
-if uploaded_file is not None:
+# Process the selected file (either uploaded or sample)
+pdf_to_process = None
+pdf_name = None
+
+if selected_sample:
+    pdf_to_process = selected_sample
+    pdf_name = os.path.basename(selected_sample)
+    st.success(f"Using sample PDF: {pdf_name}")
+elif uploaded_file is not None:
+    # Create a temporary file for the uploaded PDF
+    with tempfile.NamedTemporaryFile(delete=False, suffix='.pdf') as tmp_file:
+        tmp_file.write(uploaded_file.getvalue())
+        pdf_to_process = tmp_file.name
+    pdf_name = uploaded_file.name
+
+if pdf_to_process:
     # Process button
     if st.button("Process PDF"):
         try:
@@ -38,17 +73,12 @@ if uploaded_file is not None:
             # Create progress bar
             progress_bar = st.progress(0)
             
-            # Create a temporary file
-            with tempfile.NamedTemporaryFile(delete=False, suffix='.pdf') as tmp_file:
-                tmp_file.write(uploaded_file.getvalue())
-                pdf_path = tmp_file.name
-            
             # Create extraction directory if it doesn't exist
             os.makedirs("extracted_data", exist_ok=True)
             
             # Step 1: Process PDF to extract text elements
             status.text("Step 1/4: Extracting text and tables from PDF...")
-            text_data = process_pdf(pdf_path)
+            text_data = process_pdf(pdf_to_process)
             progress_bar.progress(25)
             
             # Step 2: Find table images
@@ -102,7 +132,8 @@ if uploaded_file is not None:
             progress_bar.progress(100)
             
             # Clean up temporary files
-            os.unlink(pdf_path)
+            if uploaded_file is not None:  # Only delete if it was an uploaded file
+                os.unlink(pdf_to_process)
             if os.path.exists("extracted_data"):
                 import shutil
                 shutil.rmtree("extracted_data", ignore_errors=True)
@@ -112,12 +143,22 @@ if uploaded_file is not None:
             st.subheader("Extracted Financial Data")
             st.json(financial_data)
             
+            # Check if there's a corresponding JSON file for the sample
+            if selected_sample:
+                json_file_path = selected_sample.replace('.pdf', '.json')
+                if os.path.exists(json_file_path):
+                    with open(json_file_path, 'r') as f:
+                        expected_json = json.load(f)
+                    
+                    st.subheader("Expected Output (Sample JSON)")
+                    st.json(expected_json)
+            
             # Download button for JSON
             json_str = json.dumps(financial_data, indent=4)
             st.download_button(
                 label="Download JSON",
                 data=json_str,
-                file_name=f"{os.path.splitext(uploaded_file.name)[0]}_financial_data.json",
+                file_name=f"{os.path.splitext(pdf_name)[0]}_financial_data.json",
                 mime="application/json"
             )
             
