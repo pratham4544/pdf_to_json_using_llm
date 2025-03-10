@@ -99,7 +99,7 @@ if pdf_to_process:
                     col_idx = i % len(cols)
                     with cols[col_idx]:
                         img = Image.open(img_path)
-                        st.image(img, caption=f"Table {i+1}", use_column_width=True)
+                        st.image(img, caption=f"Table {i+1}", use_container_width=True)
                         st.write(f"Processing Table {i+1}...")
             else:
                 status.text("No table images found in the PDF")
